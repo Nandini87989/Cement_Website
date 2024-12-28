@@ -1,0 +1,35 @@
+{
+    "signupInfo": [
+      {
+        "name": "Naman",
+        "email": "naman.prakash@lpu.in",
+        "password": "123@#Naman",
+        "phone": "7064567898"
+      },
+      {
+        "name": "Utkarsh",
+        "email": "utkarsh.sinha@lpu.in",
+        "password": "123@#utkarsh",
+        "phone": "0745234567"
+      },
+        {
+        "name": "abc",
+        "email": "abc@gmail.com",
+        "password": "123@#abc",
+        "phone": "0745234567"
+      },
+        {
+        "name": "xyz",
+        "email": "xyz@gmail.com",
+        "password": "123456@#xyz",
+        "phone": "0745234567"
+      },
+        {
+        "name": "Naman",
+        "email": "naman2580@gmail.com",
+        "password": "2580@#Naman",
+        "phone": "0745234567"
+      },
+        
+    ]
+  }

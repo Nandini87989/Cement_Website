@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kodinger">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Login Page</title>
+</head>
+<style>
+      body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          background: radial-gradient(#fff, #2e77f5);
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        button {
+            width: calc(100% - 20px);
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 20px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        button#a {
+            background-color: transparent;
+            color: #007bff;
+            border: none;
+            text-align: left;
+            padding: 0;
+        }
+
+        button#a:hover {
+            background-color: transparent;
+        }
+
+        button#a a {
+            color: #007bff;
+        }
+</style>
+
+<body>
+    <form action="/signin" method="POST">
+
+        <input type="text" placeholder="EMAIL" name="email" required>
+
+        <input type="password" placeholder="PASSWORD" name="password" required>
+
+        <button id="b">
+
+            <a href="#" style="cursor: pointer;">
+
+                Forgot password?
+
+            </a>
+
+        </button><br>
+        <button type="submit" class='sign_in_btn'>
+
+            <!-- <a href='index.html.html'> -->
+
+            <b>SIGN IN</b>
+
+            <!-- </a> -->
+        </button>
+        <a href="http://127.0.0.1:5501/signup.html">
+            <p>Sign-Up</p>
+        </a>
+    </form>
+</body>
+
+</html>
